@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Yamaka';
+    src: url(./extra/Yamaka\ Personal\ Used.otf);
+}
+
+.rigo-logo{
+    width: 300px;
+    margin-left: 4%;
+}
+
+.img-header{
+    height: 50px;
+}
+
+.rigo-logo-container{
+    width: 96%;
+    margin-top: 3vh;
+}
+
+.social-media-container{
+    width: 70px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgba(78, 77, 77, 0.368);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.container-header{
+    display: flex;
+}
+
+.bg-container{
+    display: flex;
+    width: 100%;
+    min-height: 1000px;
+    max-height: 1012px;
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.rigo-bg{
+    position: relative;
+    bottom: 70px;
+    width: 100vw;
+    height: fit-content;
+}
+
+footer {
+    margin-top: 612px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 100px;
+}
+
+p{
+    font-family: 'Yamaka';
+}
+footer > p {
+    margin-top: 14px;
+    color: rgb(145, 145, 145);
+}
+
+@media (max-width:1900px){
+    .rigo-bg{
+        width: 1920px;
+    }
+}
+
+@media (max-width:800px){
+    .rigo-bg{
+        width: 1720px;
+    }
+    .rigo-logo{
+        width: 200px;
+    }
+    .img-header{
+        height: 37px;
+    }
+    .social-media-container{
+        margin-right: 2%;
+        height: 330px;
+    }
+}
